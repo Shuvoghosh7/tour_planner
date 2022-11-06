@@ -1,0 +1,30 @@
+.error{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.error img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+h1{
+    color:red;
+    font-size: 50px;
+}
+p{
+    font-weight: bold;
+}
+
+button{
+    background-color: #FF3B00;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-link{
+    text-decoration: none;
+    color: white;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './Banner.css'
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -22,7 +23,7 @@ const Banner = () => {
                         <p className='text-info'>United State of America</p>
                         <p className='text-title'>Arizona</p>
                         <div>
-                            <button className='book-btn'>Book Now</button>
+                            <Link to="/bookNow"><button className='book-btn'>Book Now</button></Link>
                             <p className='Choose_Tour'>Choose Tour</p>
                         </div>
                         <p className='asia'>Asia</p>

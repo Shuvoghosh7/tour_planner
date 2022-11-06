@@ -18,22 +18,22 @@ const Navbar = () => {
                         <div className='manu-item'>HOME</div>
                     </a>
                     <a href="#menu">
-                        <div className='manu-item'>MENU</div>
+                        <div className='manu-item'>FEATURES</div>
                     </a>
                     <a href="#teppanyaki">
-                        <div className='manu-item'>TEPPANYAKI</div>
+                        <div className='manu-item'>PAGES</div>
                     </a>
                     <a href="#memories">
-                        <div className='manu-item'>EVENTS & PRIVATE DINING</div>
+                        <div className='manu-item'>TOURS</div>
                     </a>
                     <a href="#gift-container">
-                        <div className='manu-item'>GIFT CARDS</div>
+                        <div className='manu-item'>CARS CARDS</div>
                     </a>
                     <a href="#contact">
-                        <div className='manu-item'>CONTACT</div>
+                        <div className='manu-item'>HOTELS</div>
                     </a>
                     <a href="">
-                        <div className='manu-item'>RESERVATIONS</div>
+                        <div className='manu-item'>FLIGHTS</div>
                     </a>
                 </div>
                 <div className='search-logo'>
