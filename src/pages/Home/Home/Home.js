@@ -11,6 +11,7 @@ const Home = () => {
             <Facility/>
             <PopularTours/>
             <TopDestinations/>
+        
         </div>
     );
 };
