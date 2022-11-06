@@ -5,35 +5,169 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .inside-banner {
+}
+
+.inside-banner {
     background: rgba(0, 0, 0, 0.46);
     width: 100%;
     height: 100vh;
+
+}
+
+.inside-banner-menu {
     display: flex;
-    justify-content: space-between; 
-  }
-  .inside-banner-top{
+    justify-content: space-between;
+}
+
+.inside-banner-top {
     display: flex;
     gap: 10px;
     position: relative;
     left: 100px;
     top: 10px;
     color: white;
-  }
-  .nside-banner-Login{
+}
+
+.nside-banner-Login {
     color: white;
     margin-right: 108px;
     position: relative;
     top: 10px;
-  }
-  
-  @media screen and (max-width: 640px) {
-    .inside-banner-top{
+}
+
+.text-info {
+    position: absolute;
+    width: 185px;
+    height: 19px;
+    left: 238px;
+    top: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.text-title {
+    position: absolute;
+    width: 312px;
+    height: 113px;
+    left: 109px;
+    top: 250px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 113px;
+    color: #FFFFFF;
+}
+
+.book-btn {
+    position: absolute;
+    width: 137px;
+    height: 43px;
+    left: 105px;
+    top: 553px;
+    background: #FF3B00;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.Choose_Tour {
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 264px;
+    top: 543px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.asia {
+    position: absolute;
+    width: 166px;
+    height: 87px;
+    left: 1156px;
+    top: 293px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: #C2B9B9;
+}
+
+.banner-icon {
+    position: absolute;
+    left: 1166px;
+    top: 560px;
+    color: #FFFFFF;
+    gap: 10px;
+}
+.icon-1{
+    width: 50px;
+    height: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    .inside-banner-top {
         left: 20px;
     }
-    .nside-banner-Login{
-        margin-right:10px
+
+    .nside-banner-Login {
+        margin-right: 10px
     }
-  }
-  
+
+    .text-info {
+        position: absolute;
+        width: 105px;
+        height: 19px;
+        left: 58px;
+        top: 400px;
+    }
+
+    .text-title {
+        position: absolute;
+        width: 112px;
+        height: 83px;
+        left: 10px;
+        top: 360px;
+    }
+
+    .book-btn {
+        position: absolute;
+        left: 10px;
+        top: 593px;
+    }
+
+    .Choose_Tour {
+        position: absolute;
+        left: 164px;
+        top: 577px;
+    }
+    .asia{
+        position: absolute;
+        left: 10px;
+        top: 593px;
+    }
+    .banner-icon {
+        position: absolute;
+        left: 230px;
+        top: 690px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .asia{
+        position: absolute;
+        left: 580px;
+    }
+    .banner-icon {
+        position: absolute;
+        left: 580px;
+    }
+}
