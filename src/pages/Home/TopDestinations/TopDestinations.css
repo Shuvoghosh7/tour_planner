@@ -39,7 +39,7 @@
 .country h4 {
     position: relative;
     top: -190px;
-    left: 90px;
+    left: 110px;
     font-family: 'Inria Serif';
     font-style: normal;
     font-weight: 700;
@@ -85,6 +85,6 @@
     .country h4 {
         position: relative;
         top: -270px;
-        left: 180px;
+        left: 195px;
     }
 }

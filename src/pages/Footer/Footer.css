@@ -1,0 +1,137 @@
+.footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.footer-inside {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+}
+
+.about-part img {
+    width: 130px;
+    height: 83px;
+    margin-top: 20px;
+}
+
+.about-part p {
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FF3B00;
+}
+
+.footer-inside {
+    margin: 15px 108px;
+}
+
+.contact {
+    color: white;
+    margin-top: 70px;
+}
+
+.contact-icon {
+    color: #FF3B00;
+    margin-right: 10px;
+}
+
+.Company {
+    color: white;
+    margin-top: 10px;
+}
+
+.Explore {
+    color: white;
+    margin-top: 10px;
+}
+
+.Newsletter {
+    color: white;
+    margin-top: 10px;
+}
+
+.email-btn {
+    width: 339px;
+    height: 53px;
+    background: rgba(189, 176, 176, 0.8);
+    border-radius: 8px;
+    margin-bottom: 14px;
+}
+
+.Subscribe-btn {
+    width: 339px;
+    height: 53px;
+    background: #FF3B00;
+    border-radius: 8px;
+}
+.social{
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+.social_icon{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+.social-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-login{
+    margin-right: 60px;
+}
+@media screen and (max-width: 640px) {
+    .footer-inside {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 70px;
+    }
+
+    .email-btn {
+        width: 139px;
+        height: 53px;
+    }
+
+    .Subscribe-btn {
+        width: 139px;
+        height: 53px;
+    }
+    .social-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .social-login{
+        margin-right: 30px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .footer-inside {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .email-btn {
+        width: 179px;
+        height: 53px;
+    }
+
+    .Subscribe-btn {
+        width: 179px;
+        height: 53px;
+    }
+}
