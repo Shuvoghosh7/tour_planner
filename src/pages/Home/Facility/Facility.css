@@ -74,8 +74,6 @@
         justify-content: space-around;
         gap:6px;
     }
-
-    .facility-Link {}
     .search-facility {
         display: flex;
         flex-direction: column;
@@ -92,5 +90,13 @@
         height: 225px;
         left: 80px;
         top: 880px;
+    }
+    
+    .input-text {
+        width: 110px;
+    }
+    .submit-btn {
+        width: 80px;
+        height: 40px;
     }
 }
