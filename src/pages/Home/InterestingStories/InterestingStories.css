@@ -1,0 +1,146 @@
+.Interesting_Stories {
+    margin: 60px 108px 20px;
+}
+
+.Interesting_Stories h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1px;
+    color: #000000;
+}
+
+.Interesting_Stories p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #645E5E;
+}
+
+.int-countrys1 {
+    background-image: url(../../../images/Interesting/Russia11.png);
+    min-height: 279px;
+    width: 210px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+}
+.int-countrys2 {
+    background-image: url(../../../images/Interesting/Southpole.png);
+    min-height: 279px;
+    width: 210px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+}
+.int-countrys3 {
+    background-image: url(../../../images/Interesting/Africa.jpg);
+    min-height: 279px;
+    width: 210px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+}
+.int-countrys4 {
+    background-image: url(../../../images/Interesting/Greece.jpg);
+    min-height: 279px;
+    width: 210px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+}
+
+.intcountrys_flag {
+    width: 90px;
+    height: 88px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.int-countrys1 p{
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+.int-countrys2 p{
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 140px;
+    left: 30px;
+}
+.int-countrys3 p{
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+.int-countrys4 p{
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+
+.Interesting_countrys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 640px) {
+    .Interesting_Stories {
+        margin:5px;
+    }
+    .Interesting_countrys {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .Interesting_countrys {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+}
