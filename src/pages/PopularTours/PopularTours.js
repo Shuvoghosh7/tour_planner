@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
 import { AiTwotoneStar } from 'react-icons/ai';
+import { GoPrimitiveDot } from 'react-icons/go';
+import { AiOutlineStar } from 'react-icons/ai';
 import './PopularTours.css'
-import Tours1 from '../../images/Tours1.png'
-import Tours2 from '../../images/tours2.png'
+
 const PopularTours = () => {
     return (
         <div className='Popular_Tours'>
@@ -22,15 +23,46 @@ const PopularTours = () => {
             <div className='tours-details'>
                 <div className='tour1'>
                     <div>
-                        <img src={Tours1} alt="" />
-                        <h4>Australia</h4>
-                        <p>Lorem Ipsum is simply <br /> dummy text.</p>
+                        <div className='tour-name'>
+                            <p><span><GoPrimitiveDot className='tour-name-icon' /></span> Australia</p>
+                        </div>
+                        <h3 className='tour-title'>Lorem Ipsum is simply dummy text.</h3>
+                        <div className='toure-icon'>
+                            <p>5 days | from $500</p>
+                            <p>
+                                <AiTwotoneStar className='ratting-icon' />
+                                <AiTwotoneStar className='ratting-icon' />
+                                <AiTwotoneStar className='ratting-icon' />
+                                <AiOutlineStar className='ratting-icon2' />
+                                <AiOutlineStar className='ratting-icon2' />
+                            </p>
+                            <p>3 reviews</p>
+
+                        </div>
+
                     </div>
                 </div>
-                <div className='tour1'>
-                    <img src={Tours2} alt="" />
-                    <h4>North Africa</h4>
-                    <p>Lorem Ipsum is simply <br /> dummy text.</p>
+                <div className='tour2'>
+                    <div>
+                        <div className='tour-name'>
+                            <p><span><GoPrimitiveDot className='tour-name-icon' /></span> North Africa</p>
+                        </div>
+                        <h3 className='tour-title'>Lorem Ipsum is simply dummy text.</h3>
+                        <div className='toure-icon'>
+                            <p>5 days | from $500</p>
+                            <p>
+                                <AiTwotoneStar className='ratting-icon' />
+                                <AiTwotoneStar className='ratting-icon' />
+                                <AiTwotoneStar className='ratting-icon' />
+                                <AiOutlineStar className='ratting-icon2' />
+                                <AiOutlineStar className='ratting-icon2' />
+                            </p>
+                            <p>3 reviews</p>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>

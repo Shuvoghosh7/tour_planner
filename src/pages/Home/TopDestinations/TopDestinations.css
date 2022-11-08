@@ -11,6 +11,12 @@
     text-decoration: none;
 }
 
+.destination-countrys{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+}
+
 .destination-text p {
     font-family: 'Inter';
     font-style: normal;
@@ -19,37 +25,151 @@
     line-height: 20px;
     color: #645E5E;
 }
-.country{
-    width: 350px;
-    height: 200px;
-}
-.destination-countrys{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 25px;
-}
 
-.country img {
-    width: 350px;
-    height: 200px;
+.country1 {
+    background-image: url(../../../images/America.jpg);
+    min-height: 279px;
+    width: 280px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;
-    filter: drop-shadow( rgba(0, 0, 0, 0.25) invert(75%));
+    margin: auto;
+}
+.country2 {
+    background-image: url(../../../images/Maldives.jpg);
+    min-height: 279px;
+    width: 280px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+}
+.country3 {
+    background-image: url(../../../images/Africa.jpg);
+    min-height: 279px;
+    width: 280px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+}
+.country4 {
+    background-image: url(../../../images/Japan.png);
+    min-height: 279px;
+    width: 280px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+}
+.country5 {
+    background-image: url(../../../images/Australia.png);
+    min-height: 279px;
+    width: 280px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+}
+.country6 {
+    background-image: url(../../../images/india.jpg);
+    min-height: 279px;
+    width: 280px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
 }
 
-.country h4 {
+.countryName1 {
     position: relative;
-    top: -190px;
-    left: 110px;
+    top: 50px;
+    left: 50px;
     font-family: 'Inria Serif';
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 48px;
     line-height: 58px;
-    color: white;
+    color: #FFFFFF;
+}
+.countryName2 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.countryName3 {
+    position: relative;
+    top: 50px;
+    left: 70px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.countryName4 {
+    position: relative;
+    top: 50px;
+    left: 70px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.countryName5 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.countryName6 {
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
 }
 
+
+
 @media screen and (max-width: 640px) {
-    .destination-countrys{
+    .destination-countrys {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 25px;
@@ -61,30 +181,55 @@
     .TopDestinations {
         margin-left: 10px;
     }
-    
-}
-
-@media screen and (min-width:768px) and (max-width:1023px){
-    .destination-text {
-        display: flex;
-        flex-direction: column;
+    .country1{
+        margin-left: 30px;
+    }
+    .country2{
+        margin-left: 30px;
+    }
+    .country3{
+        margin-left: 30px;
+    }
+    .country4{
+        margin-left: 30px;
+    }
+    .country5{
+        margin-left: 30px;
+    }
+    .country6{
+        margin-left: 30px;
+    }
+    .countryName {
+        position: relative;
+        top: 40px;
     }
     .destination-countrys{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .destination-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .destination-countrys {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         gap: 35px;
     }
-    .country img {
-        width: 550px;
-        height: 350px;
-    }
-    .country{
-        width: 550px;
-        height: 350px;
-    }
-    .country h4 {
+
+    .countryName {
         position: relative;
-        top: -270px;
-        left: 195px;
+        top: 40px;   
     }
+    .destination-countrys{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
 }

@@ -19,30 +19,25 @@ const TopDestinations = () => {
             </div>
 
             <div className='destination-countrys'>
-                <div className='country'>
-                    <img src={America} alt="" />
-                    <h4>America</h4>
+                <div className='country1'>
+                    <p className='countryName1'>America</p> 
                 </div>
-                <div className='country'>
-                    <img src={Maldives} alt="" />
-                    <h4>America</h4>
+                <div className='country2'>
+                    <p className='countryName2'>Maldives</p>
                 </div>
-                <div className='country'>
-                    <img src={Africa} alt="" />
-                    <h4>America</h4>
+                <div className='country3'>
+                    <p className='countryName3'>Africa</p> 
                 </div>
-                <div className='country'>
-                    <img src={Japan} alt="" />
-                    <h4>Japan</h4>
+                <div className='country4'>
+                    <p className='countryName4'>Japan</p> 
                 </div>
-                <div className='country'>
-                    <img src={Australia} alt="" />
-                    <h4>Australia</h4>
+                <div className='country5'>
+                    <p className='countryName5'>Australia</p> 
                 </div>
-                <div className='country'>
-                    <img src={India} alt="" />
-                    <h4>India</h4>
+                <div className='country6'>
+                    <p className='countryName6'>India</p> 
                 </div>
+                
             </div>
             
             

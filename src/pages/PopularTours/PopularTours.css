@@ -7,7 +7,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    color: #000000;  
+    color: #000000;
 }
 
 .tours {
@@ -45,68 +45,122 @@
 
 .tours-details {
     display: grid;
-    grid-template-columns:  1fr 1fr;
-   
+    grid-template-columns: 1fr 1fr;
 }
 
-.tour1 img {
-    width: 530px;
-    height: 361px;
+.tour1 {
+    background-image: url(../../images/Tours1.png);
+    min-height: 341px;
+    width: 478px;
+    ;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;
+    margin: auto;
 }
 
-.tour1 p {
-    font-family: 'Inter';
-    font-style: normal;
+.tour2 {
+    background-image: url(../../images/tours2.png);
+    min-height: 341px;
+    width: 478px;
+    ;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin: auto;
+
+}
+.tour-name p {
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 28px;
+}
+
+.tour-name-icon {
+    color: #FF3B00;
+}
+
+.tour-title {
+    position: relative;
+    top: 110px;
+    left: 28px;
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
     color: #FFFFFF;
-    position: absolute;
-    margin-top: -140px;
-    margin-left: 10px;
-}
-.tour1 h4{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
-    position: absolute;
-    margin-top: -340px;
-    margin-left: 10px;
-    color: white;
 }
 
+.toure-icon {
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    position: relative;
+    top: 110px;
+}
 
+.ratting-icon {
+    color: #FF3B00;
+    font-size: 20px;
+}
 
+.ratting-icon2 {
+    font-size: 20px;
+}
 
 
 @media screen and (max-width: 640px) {
     .Popular_Tours {
         margin: 370px 10px 10px;
     }
+
     .tours-details {
         display: grid;
-        grid-template-columns:  1fr;
+        grid-template-columns: 1fr;
         gap: 10px;
     }
-    .tour1 img {
+
+    .tour1 {
+        min-height: 250px;
         width: 330px;
-        height: 261px;
-        margin-left: 10px;
+        margin-left: 7px;
     }
-    .tour1 h4{  
-        position: absolute;
-        margin-top: -240px;
-        margin-left: 20px;
+
+    .tour2 {
+        min-height: 250px;
+        width: 330px;
+        margin-left: 7px;
+    }
+
+    .tour-title {
+        position: relative;
+        top: 50px;
+        left: 15px;
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .toure-icon {
+        display: flex;
+        justify-content: space-around;
+        color: #FFFFFF;
+        position: relative;
+        top: 30px;
     }
 }
-@media screen and (min-width:768px) and (max-width:1023px){
+
+@media screen and (min-width:768px) and (max-width:1023px) {
     .tours-details {
         display: grid;
-        grid-template-columns:  1fr;
+        grid-template-columns: 1fr;
         gap: 10px;
     }
+    
+
 }
