@@ -6,6 +6,7 @@ import Banner from '../Banner/Banner';
 import Brand from '../Brand/Brand';
 import Facility from '../Facility/Facility';
 import InterestingStories from '../InterestingStories/InterestingStories';
+import Newsletter from '../Newsletter/Newsletter';
 import TopDestinations from '../TopDestinations/TopDestinations';
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <Brand/>
             <Review/>
             <Blogs/>
+            <Newsletter/>
 
         </div>
     );
