@@ -8,6 +8,7 @@ import Footer from './pages/Footer/Footer';
 
 
 
+
 function App() {
   return (
     <div>
@@ -15,7 +16,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='*' element={<Notfound />} />
-
       </Routes>
       <Footer />
     </div>

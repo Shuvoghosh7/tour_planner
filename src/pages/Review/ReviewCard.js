@@ -4,7 +4,7 @@ import { AiTwotoneStar } from 'react-icons/ai';
 import { AiOutlineStar } from 'react-icons/ai';
 const ReviewCard = ({ review }) => {
     const { image, comment, name, role } = review;
-    console.log(review.comment)
+ 
     return (
         <div>
             <div className='review-content'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Blogs from '../../Blogs/Blogs';
 import PopularTours from '../../PopularTours/PopularTours';
 import Review from '../../Review/Review';
 import Banner from '../Banner/Banner';
@@ -17,6 +18,7 @@ const Home = () => {
             <InterestingStories/>
             <Brand/>
             <Review/>
+            <Blogs/>
 
         </div>
     );
