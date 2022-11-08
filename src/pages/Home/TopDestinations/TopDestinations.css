@@ -1,8 +1,18 @@
 .TopDestinations {
-    margin: 40px 108px 10px;
+    margin: 80px 108px 10px;
 }
 
+.TopDestinations h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 5px;
+    color: #000000;
+
+}
 .destination-text {
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -11,7 +21,7 @@
     text-decoration: none;
 }
 
-.destination-countrys{
+.destination-countrys {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 50px;
@@ -38,6 +48,7 @@
     border-radius: 20px;
     margin: auto;
 }
+
 .country2 {
     background-image: url(../../../images/Maldives.jpg);
     min-height: 279px;
@@ -50,6 +61,7 @@
     border-radius: 20px;
     margin: auto;
 }
+
 .country3 {
     background-image: url(../../../images/Africa.jpg);
     min-height: 279px;
@@ -62,6 +74,7 @@
     border-radius: 20px;
     margin: auto;
 }
+
 .country4 {
     background-image: url(../../../images/Japan.png);
     min-height: 279px;
@@ -74,6 +87,7 @@
     border-radius: 20px;
     margin: auto;
 }
+
 .country5 {
     background-image: url(../../../images/Australia.png);
     min-height: 279px;
@@ -86,6 +100,7 @@
     border-radius: 20px;
     margin: auto;
 }
+
 .country6 {
     background-image: url(../../../images/india.jpg);
     min-height: 279px;
@@ -110,6 +125,7 @@
     line-height: 58px;
     color: #FFFFFF;
 }
+
 .countryName2 {
     position: relative;
     top: 50px;
@@ -121,6 +137,7 @@
     line-height: 58px;
     color: #FFFFFF;
 }
+
 .countryName3 {
     position: relative;
     top: 50px;
@@ -132,6 +149,7 @@
     line-height: 58px;
     color: #FFFFFF;
 }
+
 .countryName4 {
     position: relative;
     top: 50px;
@@ -143,6 +161,7 @@
     line-height: 58px;
     color: #FFFFFF;
 }
+
 .countryName5 {
     position: relative;
     top: 50px;
@@ -154,6 +173,7 @@
     line-height: 58px;
     color: #FFFFFF;
 }
+
 .countryName6 {
     position: relative;
     top: 50px;
@@ -174,18 +194,22 @@
         grid-template-columns: repeat(1, 1fr);
         row-gap: 25px;
     }
+
     .destination-text {
         display: flex;
         flex-direction: column;
     }
+
     .TopDestinations {
         margin-left: 10px;
-    } 
+    }
+
     .countryName {
         position: relative;
         top: 40px;
     }
-    .destination-countrys{
+
+    .destination-countrys {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -206,11 +230,12 @@
 
     .countryName {
         position: relative;
-        top: 40px;   
+        top: 40px;
     }
-    .destination-countrys{
+
+    .destination-countrys {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-   
+
 }

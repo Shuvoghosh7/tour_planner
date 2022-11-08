@@ -1,5 +1,6 @@
 import React from 'react';
 import PopularTours from '../../PopularTours/PopularTours';
+import Review from '../../Review/Review';
 import Banner from '../Banner/Banner';
 import Brand from '../Brand/Brand';
 import Facility from '../Facility/Facility';
@@ -15,6 +16,7 @@ const Home = () => {
             <TopDestinations/>
             <InterestingStories/>
             <Brand/>
+            <Review/>
 
         </div>
     );

@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -30px;
+    margin-top: -40px;
 }
 
 .tours h4 {
@@ -22,9 +22,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 4px;
     color: #645E5E;
-
 }
 
 .all-tours {
@@ -44,6 +43,7 @@
 }
 
 .tours-details {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
