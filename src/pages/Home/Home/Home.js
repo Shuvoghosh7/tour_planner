@@ -1,5 +1,6 @@
 import React from 'react';
 import Blogs from '../../Blogs/Blogs';
+import PhotoGallery from '../../Footer/PhotoGallery/PhotoGallery';
 import PopularTours from '../../PopularTours/PopularTours';
 import Review from '../../Review/Review';
 import Banner from '../Banner/Banner';
@@ -21,6 +22,7 @@ const Home = () => {
             <Review/>
             <Blogs/>
             <Newsletter/>
+            <PhotoGallery/>
 
         </div>
     );
