@@ -15,21 +15,23 @@ const Banner = () => {
                             <p>USD</p>
                             <p>EN</p>
                         </div>
-                        <div className='nside-banner-Login'>
+                        <div className='inside-banner-Login'>
                             <p><span>Sign Up</span> / <span>Sign In</span></p>
                         </div>
                     </div>
-                    <div>
-                        <p className='text-info'>United State of America</p>
-                        <p className='text-title'>Arizona</p>
-                        <div>
-                            <Link to="/bookNow"><button className='book-btn'>Book Now</button></Link>
-                            <p className='Choose_Tour'>Choose Tour</p>
+                    <div className='banner-text-content'>
+                        <div className='united-text'>
+                            <p>United State of America</p>
+                            <h2>Arizona</h2>
+                            <Link className='book-link'>Book Now</Link>
+                            <Link className='choose-toure-link'>Choose Tour</Link>
                         </div>
-                        <p className='asia'>Asia</p>
-                        <div className='banner-icon'>
+                        <div className='asia-tour-text'>
+                            <p>Asia</p>
+                            <div>
                             <BsFillArrowLeftCircleFill className='icon-1' />
                             <BsFillArrowRightCircleFill className='icon-1' />
+                            </div>
                         </div>
                     </div>
                 </div>
